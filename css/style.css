@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 600px;
+}
+
+.logo {
+  max-width: 100%;
+  width: 85px;
+  height: 85px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  border-bottom: solid 2px #000;
+  border-radius: 4px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul {
+  font-size: 1.3rem;
+  gap: 30px;
+}
+
+.icones {
+  gap: 20px;
+}
+
+.icones img {
+  width: 30px;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}

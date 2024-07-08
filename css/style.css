@@ -16,8 +16,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 12px 40px;
-  border-bottom: solid 2px #000;
+  border-bottom: solid 1px #000;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 ul {
@@ -55,8 +56,8 @@ nav ul {
 
 .tenis {
   max-width: 100%;
-  width: 50vw;
-  height: auto;
+  width: 100vw;
+  height: 85vh;
   object-fit: cover;
 }
 
@@ -65,7 +66,6 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: auto;
 }
 
 .conteudo h1 {

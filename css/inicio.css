@@ -49,6 +49,7 @@ nav ul {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   justify-content: space-around;
+  align-items: center;
   margin: 20px;
   margin-top: 80px;
 }
